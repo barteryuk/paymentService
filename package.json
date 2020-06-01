@@ -1,0 +1,29 @@
+{
+  "name": "barteryuk-paymentService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --detectOpenHandles --runInBand",
+    "dev": "NODE_ENV=development nodemon bin/server.js",
+    "start": "NODE_ENV=production node bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barteryuk/paymentService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barteryuk/paymentService/issues"
+  },
+  "homepage": "https://github.com/barteryuk/paymentService#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.11"
+  }
+}
